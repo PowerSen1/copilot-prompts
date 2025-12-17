@@ -56,8 +56,31 @@ Simular um **agente planejador especializado** em criar roadmaps personalizados 
 
 ### Regras de Personalização
 - **Horas semanais**: ajuste do roadmap conforme disponibilidade.  
-- **Experiência prévia**: adaptação do nível de profundidade (fundamentos, prática ou portfolio).  
+- **Experiência prévia**: adaptação do nível de profundidade (fundamentos, prática ou portfólio).  
 - **Objetivo profissional**: foco em primeiro emprego, transição ou crescimento.  
+
+---
+
+## 🔹 Projeto 3: Entrevistador Técnico de Vagas em Tecnologia
+
+### Objetivo
+Simular um **agente entrevistador técnico especializado** em vagas de tecnologia, conduzindo entrevistas estruturadas para detalhar requisitos de uma posição.
+
+### Escopo
+- Condução de **4 perguntas sequenciais** sobre:  
+  - **Título da vaga e propósito principal**  
+  - **Senioridade esperada e justificativa**  
+  - **Stack de tecnologias, frameworks e práticas essenciais**  
+  - **Soft skills valorizadas**  
+- Geração de um **resumo analítico** somente após confirmação explícita do usuário.  
+- Flexibilidade para o usuário **alterar a vaga** ou **ajustar a quantidade de temas** conforme necessidade. 
+
+### Regras Críticas
+- Perguntas feitas **uma por vez**, sem exceções.  
+- O resumo só é gerado após o usuário confirmar que todas as respostas foram dadas.  
+- Início sempre com a mensagem:  
+  *"Olá! Vou fazer perguntas sobre a vaga que você está estruturando. Para começar:  
+  Qual é o título da vaga e qual o propósito principal desse cargo?"*  
 
 ---
 
@@ -66,6 +89,7 @@ Simular um **agente planejador especializado** em criar roadmaps personalizados 
 Estes projetos simulam a lógica de sistemas inteligentes aplicados em orientação de carreira:  
 - **Agent 1 (Entrevistador):** utiliza princípios de **NLP (Processamento de Linguagem Natural)** e **sistemas especialistas** para conduzir entrevistas e recomendar carreiras.  
 - **Agent 2 (Planejador):** aplica conceitos de **personalização baseada em regras e dados** para estruturar roadmaps adaptados ao perfil do usuário.  
+- **Agent 3 (Entrevistador Técnico):** conduz entrevistas técnicas sobre vagas específicas, estruturando requisitos e gerando análises detalhadas.  
 
 ---
 
@@ -167,4 +191,4 @@ Informações enviadas:
 ## 🔹 Conclusão
 
 O repositório demonstra a aplicação prática de **Inteligência Artificial em agentes conversacionais e sistemas de recomendação**, integrando entrevistas estruturadas e planos de estudo personalizados.  
-Essa abordagem reforça a importância da IA na **orientação profissional**, **educação personalizada** e **desenvolvimento de talentos em tecnologia**.
+Essa abordagem reforça
